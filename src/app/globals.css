@@ -1,27 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+/* ── BASE RESET & DEFAULTS ─────────────────────────────────────────────────── */
+@layer base {
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    @apply font-sans text-brand-charcoal bg-brand-white;
+    line-height: 1.6;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-sans font-bold leading-tight text-brand-dark;
+    letter-spacing: -0.01em;
+  }
+
+  a {
+    @apply transition-colors duration-200;
+  }
+
+  img, svg {
+    display: block;
+    max-width: 100%;
   }
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+/* ── REUSABLE COMPONENT CLASSES ────────────────────────────────────────────── */
+@layer components {
+
+  /* Site wrapper */
+  .site-container {
+    @apply w-full max-w-site mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  /* Section padding */
+  .section {
+    @apply py-12 sm:py-16 md:py-20 lg:py-24;
+  }
+
+  .section-light {
+    @apply py-12 sm:py-16 md:py-20 lg:py-24 bg-brand-light;
+  }
+
+  /* Section labels */
+  .section-label {
+    @apply block text-[11px] sm:text-xs font-bold uppercase tracking-widest text-brand-red mb-2.5 sm:mb-3;
+  }
+
+  .section-title {
+    @apply text-2xl sm:text-3xl md:text-4xl lg:text-[40px] font-extrabold text-brand-dark leading-tight;
+    overflow-wrap: break-word;
+  }
+
+  .section-title em {
+    @apply not-italic text-brand-red;
+  }
+
+  .section-desc {
+    @apply text-sm sm:text-base md:text-lg text-brand-charcoal leading-relaxed mt-3 sm:mt-4 max-w-2xl;
+  }
+
+  /* Red accent divider (catalogue-inspired) */
+  .red-bar {
+    @apply block w-8 sm:w-10 h-1 bg-brand-red rounded-full mt-3 sm:mt-4 mb-5 sm:mb-6;
+  }
+
+  /* ── BUTTONS ────────────────────────────────────────────────────────────── */
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 font-semibold
+           text-xs sm:text-sm rounded-btn transition-all duration-200
+           focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-red
+           disabled:opacity-50 disabled:pointer-events-none min-h-[44px];
+  }
+
+  .btn-primary {
+    @apply btn px-5 sm:px-6 py-2.5 sm:py-3 bg-brand-red text-white
+           hover:bg-brand-red-deep active:scale-95 shadow-sm;
+  }
+
+  .btn-outline {
+    @apply btn px-5 sm:px-6 py-2.5 sm:py-3 border-2 border-brand-red text-brand-red bg-transparent
+           hover:bg-brand-red hover:text-white active:scale-95;
+  }
+
+  .btn-white {
+    @apply btn px-5 sm:px-6 py-2.5 sm:py-3 bg-white text-brand-red
+           hover:bg-brand-light active:scale-95;
+  }
+
+  /* ── NAV LINK ───────────────────────────────────────────────────────────── */
+  .nav-link {
+    @apply relative text-sm font-medium text-brand-charcoal
+           hover:text-brand-red transition-colors duration-200;
+  }
+
+  .nav-link::after {
+    content: '';
+    @apply absolute -bottom-1 left-0 w-0 h-0.5 bg-brand-red
+           transition-all duration-200 rounded-full;
+  }
+
+  .nav-link:hover::after,
+  .nav-link.active::after {
+    @apply w-full;
+  }
+
+  .nav-link.active {
+    @apply text-brand-red;
+  }
+
+  /* ── CARDS ──────────────────────────────────────────────────────────────── */
+  .card {
+    @apply bg-brand-white rounded-lg border border-brand-border shadow-card
+           transition-all duration-300;
+  }
+
+  .card:hover {
+    @apply shadow-card-hover -translate-y-0.5;
+  }
+
+  /* ── PLACEHOLDER BOX ────────────────────────────────────────────────────── */
+  .placeholder-box {
+    @apply bg-brand-light border-2 border-dashed border-brand-border
+           rounded-lg flex items-center justify-center text-sm
+           text-brand-charcoal font-medium;
+  }
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+/* ── SCROLLBAR ──────────────────────────────────────────────────────────────── */
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-track { background: #F4F6F9; }
+::-webkit-scrollbar-thumb { background: #D21516; border-radius: 99px; }
+
+/* ── ANIMATIONS & TRANSITIONS ───────────────────────────────────────────────── */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
   }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.animate-slideUp {
+  animation: slideUp 0.5s cubic-bezier(0.16, 1, 0.3, 1) forwards;
 }
