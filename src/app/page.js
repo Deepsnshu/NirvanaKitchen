@@ -256,7 +256,7 @@ export default function HomePage() {
           <div className="absolute inset-0 z-0">
             <Image
               src="/images/hero-manufacturing-facility.jpg"
-              alt="Nirvana Commercial Kitchen Equipment Manufacturing & Fabrication Facility"
+              alt="Nirvana Niche Products Private Limited Manufacturing & Fabrication Facility"
               fill
               priority
               sizes="100vw"
@@ -274,7 +274,7 @@ export default function HomePage() {
               {/* Eyebrow Label */}
               <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/10 backdrop-blur-md border border-white/20 text-white text-[11px] sm:text-xs font-semibold uppercase tracking-wider mb-3 sm:mb-4 shadow-xl">
                 <span className="w-2 h-2 rounded-full bg-brand-red animate-pulse" />
-                <span>PART OF SAMVARDHANA MOTHERSON GROUP</span>
+                <span>Proud to be part of Samvardhana Motherson</span>
                 <span className="text-white/40 hidden sm:inline">|</span>
                 <span className="text-white/80 hidden sm:inline text-[11px] font-normal normal-case">
                   Industrial Engineering Rigor
@@ -295,9 +295,7 @@ export default function HomePage() {
 
               {/* Subheading / Description */}
               <p className="text-xs sm:text-sm lg:text-[15px] text-white/90 max-w-2xl font-normal leading-relaxed mb-5 sm:mb-6">
-                In-house precision stainless steel (SS 304/316) fabrication and heavy-duty commercial cooking,
-                refrigeration, bakery, and institutional kitchen equipment. Serving hotels, restaurants, industrial
-                canteens, and cloud kitchens across India.
+                In-house precision stainless steel (SS 204/304/316) fabrication and heavy-duty commercial cooking, refrigeration, bakery, and institutional kitchen equipment. Serving hotels, restaurants, industrial canteens, and cloud kitchens across India.
               </p>
 
               {/* CTA Action Buttons */}
@@ -382,7 +380,7 @@ export default function HomePage() {
 
                 <div className="flex items-center gap-1.5">
                   <Building2 className="w-3.5 h-3.5 text-brand-red flex-shrink-0" />
-                  <span>Part of Samvardhana Motherson Group</span>
+                  <span>Proud to be part of Samvardhana Motherson</span>
                 </div>
                 <span className="text-white/30">|</span>
 
@@ -424,7 +422,7 @@ export default function HomePage() {
               
               {/* Left Column — Story & Capabilities */}
               <div className="lg:col-span-7">
-                <span className="section-label">About Nirvana Commercial</span>
+                <span className="section-label">About Nirvana Niche Products</span>
                 <h2 className="section-title">
                   Our Story. Our Expertise.{' '}
                   <em>Your Kitchen Partner.</em>
@@ -432,7 +430,7 @@ export default function HomePage() {
                 <span className="red-bar" />
                 
                 <p className="text-brand-charcoal text-base sm:text-lg leading-relaxed mb-4">
-                  Welcome to <strong>Nirvana Commercial Pvt. Ltd.</strong> (Nirvana Niche Products Pvt. Ltd.), an enterprise commercial kitchen equipment manufacturer and turnkey solutions provider, proudly associated with the <strong>Samvardhana Motherson Group</strong>.
+                  Welcome to <strong>Nirvana Niche Products Private Limited</strong>, an enterprise commercial kitchen equipment manufacturer and turnkey solutions provider, proudly associated with <strong>Samvardhana Motherson</strong>.
                 </p>
                 <p className="text-brand-charcoal/80 text-sm sm:text-base leading-relaxed mb-8">
                   From architectural requirement analysis and 3D CAD kitchen layouts to precision stainless steel fabrication, heavy-duty commercial cooking lines, cold chain integration, on-site commissioning, and lifecycle service — we build reliable, hygienic, and high-performance kitchen infrastructure tailored to high-volume commercial demands.
@@ -458,7 +456,7 @@ export default function HomePage() {
                       <Building2 className="w-5 h-5" />
                     </div>
                     <div>
-                      <h4 className="text-xs sm:text-sm font-bold text-brand-dark">Motherson Group Heritage</h4>
+                      <h4 className="text-xs sm:text-sm font-bold text-brand-dark">Samvardhana Motherson Heritage</h4>
                       <p className="text-[11px] sm:text-xs text-brand-charcoal/70 mt-0.5">
                         Rooted in world-class manufacturing systems, engineering precision, and corporate trust.
                       </p>
@@ -740,7 +738,7 @@ export default function HomePage() {
             <div className="max-w-2xl mb-12">
               <span className="section-label">Corporate Reliability</span>
               <h2 className="section-title">
-                Why Choose <em>Nirvana Commercial</em>
+                Why Choose <em>Nirvana Niche Products Private Limited</em>
               </h2>
               <span className="red-bar" />
               <p className="section-desc">
@@ -1086,8 +1084,8 @@ export default function HomePage() {
                     <div>
                       <span className="text-xs text-white/60 block">Direct Sales & Project Inquiries</span>
                       <div className="flex flex-wrap gap-x-3 gap-y-1 mt-0.5">
-                        <a href="tel:+919654981312" className="text-sm font-bold text-white hover:text-brand-red transition-colors">
-                          +91 9654981312
+                        <a href="tel:+917042933825" className="text-sm font-bold text-white hover:text-brand-red transition-colors">
+                          +91 7042933825
                         </a>
                         <span className="text-white/40">·</span>
                         <a href="tel:+917303090998" className="text-sm font-bold text-white hover:text-brand-red transition-colors">
@@ -1140,7 +1138,7 @@ export default function HomePage() {
 
                 <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3">
                   <a
-                    href="tel:+919654981312"
+                    href="tel:+917042933825"
                     className="btn-primary text-xs sm:text-sm px-5 sm:px-6 py-3 inline-flex items-center justify-center gap-2 font-bold min-h-[44px]"
                   >
                     <Phone className="w-4 h-4" />

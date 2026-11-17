@@ -24,7 +24,7 @@ const PRODUCT_CATEGORIES = [
 // Contact details — verified from catalogue PDF
 const CONTACT = {
   address: 'Plot No. D 59–60, Sector-6, Noida, U.P. 201301',
-  phone1:  '+91 9654981312',
+  phone1:  '+91 7042933825',
   phone2:  '+91 7303090998',
   email:   'Info.nnpplindia@motherson.com',
   website: 'www.nirvanacommercialkitchen.com',
@@ -157,10 +157,10 @@ export default function Footer() {
       <div className="border-t border-white/10">
         <div className="site-container py-4 sm:py-5 flex flex-col sm:flex-row items-center justify-between gap-2.5 sm:gap-4 text-center sm:text-left">
           <p className="text-[11px] sm:text-xs text-white/40">
-            © {year} Nirvana Niche Products Pvt. Ltd. All rights reserved.
+            © {year} Nirvana Niche Products Private Limited. All rights reserved.
           </p>
           <p className="text-[11px] sm:text-xs text-white/30">
-            Part of Samvardhana Motherson Group &nbsp;·&nbsp; ISO 9001:2015
+            Proud to be part of Samvardhana Motherson &nbsp;·&nbsp; ISO 9001:2015
           </p>
         </div>
       </div>

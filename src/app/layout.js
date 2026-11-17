@@ -1,10 +1,10 @@
 import './globals.css'
 
 export const metadata = {
-  title: 'Nirvana Commercial Kitchen Solutions | Complete Kitchen Equipment',
+  title: 'Nirvana Niche Products Private Limited | Commercial Kitchen Solutions & Equipment',
   description:
-    'Nirvana — Complete Commercial Kitchen Solutions. Design, supply, installation and support for hotels, restaurants, hospitals and institutions. ISO 9001:2015 certified. Part of Samvardhana Motherson Group.',
-  keywords: 'commercial kitchen, kitchen equipment, nirvana kitchen, cooking range, bulk cooking, refrigeration, noida',
+    'Nirvana Niche Products Private Limited — Complete Commercial Kitchen Solutions. Design, supply, installation and support for hotels, restaurants, hospitals and institutions. ISO 9001:2015 certified. Proud to be part of Samvardhana Motherson.',
+  keywords: 'commercial kitchen, kitchen equipment, nirvana kitchen, nirvana niche products, cooking range, bulk cooking, refrigeration, noida',
 }
 
 export const viewport = {

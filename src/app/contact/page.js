@@ -4,9 +4,9 @@ import QuoteForm from '@/components/QuoteForm'
 import { Phone, Mail, MapPin, Clock, Building2, ShieldCheck, Award } from 'lucide-react'
 
 export const metadata = {
-  title: 'Contact Us & Request a Quote | Nirvana Commercial Kitchen Solutions',
+  title: 'Contact Us & Request a Quote | Nirvana Niche Products Private Limited',
   description:
-    'Contact Nirvana Commercial Pvt. Ltd. (Part of Samvardhana Motherson Group). Factory & Office at Sector-6, Noida. Commercial kitchen equipment and custom fabrication quotations.',
+    'Contact Nirvana Niche Products Private Limited (Proud to be part of Samvardhana Motherson). Factory & Office at Sector-6, Noida. Commercial kitchen equipment and custom fabrication quotations.',
 }
 
 export default function ContactPage() {
@@ -42,13 +42,13 @@ export default function ContactPage() {
                 <div>
                   <span className="section-label">Company Credentials</span>
                   <h2 className="text-xl sm:text-2xl font-extrabold text-brand-dark">
-                    Nirvana Commercial Pvt. Ltd.
+                    Nirvana Niche Products Private Limited
                   </h2>
                   <p className="text-xs sm:text-sm font-semibold text-brand-red mt-0.5">
-                    Part of Samvardhana Motherson Group
+                    Proud to be part of Samvardhana Motherson
                   </p>
                   <p className="text-xs text-brand-charcoal/80 mt-2 leading-relaxed">
-                    Registered as Nirvana Niche Products Pvt. Ltd. · ISO 9001:2015 Certified Commercial Kitchen Manufacturer
+                    Registered as Nirvana Niche Products Private Limited · ISO 9001:2015 Certified Commercial Kitchen Manufacturer
                   </p>
                 </div>
 
@@ -61,8 +61,8 @@ export default function ContactPage() {
                     <div>
                       <span className="text-xs font-semibold text-brand-charcoal/70 block">Direct Telephone</span>
                       <div className="flex flex-col gap-1 mt-1">
-                        <a href="tel:+919654981312" className="text-sm font-bold text-brand-dark hover:text-brand-red transition-colors py-0.5 min-h-[36px] inline-flex items-center">
-                          +91 9654981312
+                        <a href="tel:+917042933825" className="text-sm font-bold text-brand-dark hover:text-brand-red transition-colors py-0.5 min-h-[36px] inline-flex items-center">
+                          +91 7042933825
                         </a>
                         <a href="tel:+917303090998" className="text-sm font-bold text-brand-dark hover:text-brand-red transition-colors py-0.5 min-h-[36px] inline-flex items-center">
                           +91 7303090998

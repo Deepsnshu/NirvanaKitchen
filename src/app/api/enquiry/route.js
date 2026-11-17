@@ -35,7 +35,7 @@ export async function POST(request) {
     const enquiryId = `NVP-${Date.now().toString(36).toUpperCase()}`
 
     // Log the enquiry on the server
-    console.log('[NIRVANA COMMERCIAL ENQUIRY RECEIVED]', {
+    console.log('[NIRVANA NICHE PRODUCTS ENQUIRY RECEIVED]', {
       enquiryId,
       timestamp: new Date().toISOString(),
       name,
@@ -54,7 +54,7 @@ export async function POST(request) {
   } catch (error) {
     console.error('[ENQUIRY API ERROR]', error)
     return NextResponse.json(
-      { error: 'Failed to process enquiry. Please call us directly at +91 9654981312.' },
+      { error: 'Failed to process enquiry. Please call us directly at +91 7042933825.' },
       { status: 500 }
     )
   }

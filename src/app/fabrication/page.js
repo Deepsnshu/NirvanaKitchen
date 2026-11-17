@@ -351,7 +351,7 @@ export default function CustomFabricationPage() {
               Precision-Built. Space-Efficient. Designed Around Your Needs.
             </p>
             <p className="text-sm sm:text-base md:text-lg text-white/95 max-w-3xl font-light leading-relaxed mb-6 sm:mb-8 drop-shadow-md">
-              At Nirvana Commercial Pvt. Ltd., we specialize in customized commercial kitchen fabrication solutions
+              At Nirvana Niche Products Private Limited, we specialize in customized commercial kitchen fabrication solutions
               designed to meet the unique requirements of hotels, restaurants, industrial canteens, hospitals, bakeries,
               cloud kitchens, and institutional kitchens.
             </p>
@@ -370,11 +370,11 @@ export default function CustomFabricationPage() {
                 Request Custom Quote
               </a>
               <a
-                href="tel:+919654981312"
+                href="tel:+917042933825"
                 className="px-4 sm:px-5 py-3 sm:py-3.5 rounded-btn bg-black/60 hover:bg-black/80 backdrop-blur-md text-white font-medium text-xs sm:text-sm border border-white/25 transition-all inline-flex items-center justify-center gap-2 shadow-xl hover:scale-[1.02] min-h-[44px]"
               >
-                <span>📞 Call COO Ajay Abbi:</span>
-                <span className="text-red-400 font-bold">+91 9654981312</span>
+                <span>📞 Abhay Asthana:</span>
+                <span className="text-red-400 font-bold">+91 7042933825</span>
               </a>
             </div>
           </div>
@@ -567,10 +567,10 @@ export default function CustomFabricationPage() {
                       Request Quote for {activeSolutionObj.title.split(' ')[0]} →
                     </a>
                     <a
-                      href="tel:+919654981312"
+                      href="tel:+917042933825"
                       className="text-xs font-bold text-brand-charcoal hover:text-brand-red transition-colors inline-flex items-center gap-1.5"
                     >
-                      <span>📞 Direct Call: +91 9654981312</span>
+                      <span>📞 Direct Call: +91 7042933825</span>
                     </a>
                   </div>
                 </div>
@@ -589,7 +589,7 @@ export default function CustomFabricationPage() {
                     
                     {/* Badge on Photo */}
                     <div className="absolute top-4 right-4 bg-brand-dark/90 backdrop-blur-md text-white text-[11px] font-bold px-3 py-1 rounded-full border border-white/20">
-                      Nirvana Commercial Plant
+                      Nirvana Niche Products Plant
                     </div>
 
                     <div className="absolute bottom-4 left-4 right-4 text-white">
@@ -836,7 +836,7 @@ export default function CustomFabricationPage() {
               Custom Fabrication for Your Next Kitchen Project
             </h2>
             <p className="text-white/95 text-base sm:text-lg mt-4 max-w-2xl mx-auto leading-relaxed font-light">
-              Whether you are developing a new commercial kitchen, upgrading an existing facility, or replacing equipment with customized alternatives, Nirvana Commercial Pvt. Ltd. can help you explore a suitable solution.
+              Whether you are developing a new commercial kitchen, upgrading an existing facility, or replacing equipment with customized alternatives, Nirvana Niche Products Private Limited can help you explore a suitable solution.
             </p>
             <p className="text-white font-semibold text-base mt-2">
               Share your kitchen dimensions, equipment list, drawings, or project requirements with our team to discuss the next steps.
@@ -850,10 +850,10 @@ export default function CustomFabricationPage() {
                 Request a Custom Fabrication Enquiry
               </a>
               <a
-                href="tel:+919654981312"
+                href="tel:+917042933825"
                 className="px-5 sm:px-7 py-3 sm:py-3.5 rounded-btn bg-brand-red-deep/50 hover:bg-brand-red-deep border border-white/30 text-white font-semibold text-xs sm:text-base transition-colors text-center inline-flex items-center justify-center min-h-[44px]"
               >
-                Call: +91 9654981312
+                Call: +91 7042933825
               </a>
             </div>
           </div>
@@ -881,7 +881,7 @@ export default function CustomFabricationPage() {
                     <span className="text-4xl block mb-2">✅</span>
                     <h4 className="text-lg font-bold text-emerald-900">Enquiry Submitted Successfully!</h4>
                     <p className="text-sm text-emerald-800 mt-2 max-w-md mx-auto">
-                      Thank you for contacting Nirvana Commercial Pvt. Ltd. COO Ajay Kumar Abbi and our engineering team will review your specifications and contact you shortly.
+                      Thank you for contacting Nirvana Niche Products Private Limited. Abhay Asthana and our engineering team will review your specifications and contact you shortly.
                     </p>
                     <button
                       onClick={() => setFormSubmitted(false)}
@@ -998,7 +998,7 @@ export default function CustomFabricationPage() {
 
                     <div className="flex flex-col sm:flex-row items-center justify-between gap-4 pt-4 border-t border-brand-border">
                       <p className="text-[11px] text-brand-charcoal/70">
-                        🔒 Direct dispatch to COO Ajay Kumar Abbi &amp; Sales Manager Abhay Asthana.
+                        🔒 Direct dispatch to Sales Manager Abhay Asthana &amp; engineering team.
                       </p>
                       <button
                         type="submit"
@@ -1026,31 +1026,31 @@ export default function CustomFabricationPage() {
               </h2>
               <span className="red-bar" />
               <p className="section-desc">
-                Contact our Chief Operating Officer and Sales &amp; Marketing heads directly to discuss your project specifications.
+                Contact our Line Chief and Sales &amp; Marketing heads directly to discuss your project specifications.
               </p>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
 
-              {/* Leadership Card 1 — COO */}
+              {/* Leadership Card 1 — Line Chief */}
               <div className="p-7 rounded-3xl border border-brand-border bg-white shadow-card hover:shadow-card-hover hover:border-brand-red transition-all duration-300">
                 <div className="w-12 h-12 rounded-2xl bg-brand-red/10 text-brand-red flex items-center justify-center text-xl font-bold mb-4">
                   👔
                 </div>
                 <span className="text-xs font-bold uppercase tracking-wider text-brand-red block mb-1">
-                  Contact Person
+                  Line Chief
                 </span>
                 <h3 className="text-xl font-extrabold text-brand-dark mb-1">Ajay Kumar Abbi</h3>
                 <p className="text-xs font-semibold text-brand-charcoal/70 mb-4">
-                  Chief Operating Officer
+                  Overall operations, manufacturing oversight, and turnkey project execution.
                 </p>
                 <div className="pt-4 border-t border-brand-border">
                   <a
-                    href="tel:+919654981312"
+                    href="tel:+917042933825"
                     className="inline-flex items-center gap-2 text-sm font-bold text-brand-dark hover:text-brand-red transition-colors"
                   >
                     <span>📞</span>
-                    <span>+91 9654981312</span>
+                    <span>+91 7042933825</span>
                   </a>
                 </div>
               </div>
@@ -1086,7 +1086,7 @@ export default function CustomFabricationPage() {
                 <span className="text-xs font-bold uppercase tracking-wider text-brand-red block mb-1">
                   Head Office &amp; Works
                 </span>
-                <h3 className="text-xl font-extrabold text-brand-dark mb-2">Nirvana Commercial Pvt. Ltd.</h3>
+                <h3 className="text-xl font-extrabold text-brand-dark mb-2">Nirvana Niche Products Private Limited</h3>
                 <p className="text-xs text-brand-charcoal leading-relaxed mb-4">
                   Plot No. D-59, Sector 6, Noida, Uttar Pradesh &ndash; 201301
                 </p>
@@ -1107,7 +1107,7 @@ export default function CustomFabricationPage() {
 
             {/* Bottom Brand Motto */}
             <div className="mt-12 text-center text-sm font-semibold text-brand-charcoal/80">
-              Nirvana Commercial Pvt. Ltd. &mdash; Customized Fabrication Solutions for Modern Commercial Kitchens.
+              Nirvana Niche Products Private Limited &mdash; Customized Fabrication Solutions for Modern Commercial Kitchens.
             </div>
           </div>
         </section>

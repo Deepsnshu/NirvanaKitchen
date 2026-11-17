@@ -6,7 +6,7 @@ import { ChevronDown, HelpCircle } from 'lucide-react'
 const FAQ_ITEMS = [
   {
     q: 'What types of commercial kitchen equipment does Nirvana offer?',
-    a: 'Nirvana Commercial Pvt. Ltd. provides a complete industrial portfolio across 18 specialized categories — including heavy-duty commercial cooking ranges (single, two & stock pot burners), automatic chapati machines, commercial refrigeration units, SS 304 worktables & trolleys, food preparation machines, warewashing sink stations, commercial ventilation hoods, and bakery ovens.',
+    a: 'Nirvana Niche Products Private Limited provides a complete industrial portfolio across 18 specialized categories — including heavy-duty commercial cooking ranges (single, two & stock pot burners), automatic chapati machines, commercial refrigeration units, SS 304 worktables & trolleys, food preparation machines, warewashing sink stations, commercial ventilation hoods, and bakery ovens.',
   },
   {
     q: 'Can Nirvana manufacture customized stainless steel kitchen equipment?',
@@ -26,7 +26,7 @@ const FAQ_ITEMS = [
   },
   {
     q: 'How can a customer or consultant request a manufacturer quotation?',
-    a: 'You can submit your project requirements using our online quotation form on this page, email our engineering desk at Info.nnpplindia@motherson.com, or call us directly at +91 9654981312 or +91 7303090998. We provide itemized factory quotations with detailed technical equipment specifications within 24 hours.',
+    a: 'You can submit your project requirements using our online quotation form on this page, email our engineering desk at Info.nnpplindia@motherson.com, or call us directly at +91 7042933825 or +91 7303090998. We provide itemized factory quotations with detailed technical equipment specifications within 24 hours.',
   },
 ]
 

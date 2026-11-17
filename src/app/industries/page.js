@@ -17,7 +17,7 @@ import {
 } from 'lucide-react'
 
 export const metadata = {
-  title: 'Industries We Serve | Nirvana Commercial Kitchen Equipment',
+  title: 'Industries We Serve | Nirvana Niche Products Private Limited',
   description:
     'Commercial kitchen equipment solutions for hotels, hospitals, restaurants, corporate canteens, industrial facilities, and cloud kitchens across India.',
 }

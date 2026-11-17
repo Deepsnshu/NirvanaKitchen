@@ -373,10 +373,10 @@ function ProductsContent() {
                     Request Custom Fabrication Quote
                   </Link>
                   <a
-                    href="tel:+919654981312"
+                    href="tel:+917042933825"
                     className="px-5 py-2.5 sm:py-3 rounded-btn bg-white/10 hover:bg-white/20 border border-white/30 text-white text-xs sm:text-sm font-semibold transition-colors text-center inline-flex items-center justify-center min-h-[44px]"
                   >
-                    Call: +91 9654981312
+                    Call: +91 7042933825
                   </a>
                 </div>
               </div>

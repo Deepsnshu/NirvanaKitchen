@@ -295,10 +295,10 @@ export default function Navbar() {
                 <span>Request a Quote</span>
               </Link>
               <a
-                href="tel:+919654981312"
+                href="tel:+917042933825"
                 className="btn-outline w-full text-center py-2.5 text-xs text-brand-charcoal font-semibold flex items-center justify-center gap-2 min-h-[44px]"
               >
-                <span>Call +91 9654981312</span>
+                <span>Call +91 7042933825</span>
               </a>
             </div>
           </nav>

@@ -50,7 +50,7 @@ export default function QuoteForm() {
       }
     } catch (err) {
       setStatus('error')
-      setFeedback('Unable to connect to the server. Please call us directly at +91 9654981312.')
+      setFeedback('Unable to connect to the server. Please call us directly at +91 7042933825.')
     }
   }
 
@@ -214,7 +214,7 @@ export default function QuoteForm() {
           </button>
 
           <p className="text-[10px] sm:text-[11px] text-center text-brand-charcoal/60 pt-1 leading-normal">
-            Official response guaranteed from Nirvana Commercial Pvt. Ltd. (Plot D-59, Sector-6, Noida).
+            Official response guaranteed from Nirvana Niche Products Private Limited (Plot D-59, Sector-6, Noida).
           </p>
         </form>
       )}

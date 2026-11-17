@@ -1,5 +1,5 @@
 // ─────────────────────────────────────────────────────────────────────────────
-// NIRVANA COMMERCIAL KITCHEN — CENTRALIZED PRODUCT CATALOGUE DATA
+// NIRVANA NICHE PRODUCTS PRIVATE LIMITED — CENTRALIZED PRODUCT CATALOGUE DATA
 // Source: 12-page PDF catalogue (verified, no invented specs)
 // ─────────────────────────────────────────────────────────────────────────────
 
@@ -96,10 +96,11 @@ export const PRODUCTS = [
     id: 'cr-07',
     name: 'Bulk Cooking Tilting Pan',
     category: 'cooking-range',
-    catLabel: 'Cooking Range',
+    catLabel: 'Cooking Range | Bulk Cooking',
     image: '/images/Bulk Cooking Tilting.png',
     page: 3,
     enquiryTag: 'Bulk Cooking Tilting Pan',
+    note: 'Available in Electric Tilting Pan & Gas Tilting Pan variants. High-capacity commercial SS 304 food-grade tilting pan.',
   },
   {
     id: 'cr-08',
@@ -112,12 +113,13 @@ export const PRODUCTS = [
   },
   {
     id: 'cr-09',
-    name: 'Electrical Roti Making Machine',
+    name: 'Commercial Roti Making Machine',
     category: 'cooking-range',
-    catLabel: 'Cooking Range',
+    catLabel: 'Cooking Range | Automation',
     image: '/images/electric-gas-roti-machine.png',
     page: 3,
-    enquiryTag: 'Electrical Roti Making Machine',
+    enquiryTag: 'Commercial Roti Making Machine',
+    note: 'Available in Electric Roti Making Machine & Gas Roti Making Machine variants. Fully automated high-capacity commercial production.',
   },
 
   // ── PAGE 4: BULK COOKING ──────────────────────────────────────────────────
@@ -192,6 +194,7 @@ export const PRODUCTS = [
     image: '/images/tilting-braising-pan.png',
     page: 4,
     enquiryTag: 'Tilting Braising Pan',
+    note: 'Available in Electric Tilting Pan & Gas Tilting Pan configurations. Ergonomic mechanical tilt with precision heat controls.',
   },
   {
     id: 'bc-09',
@@ -281,9 +284,10 @@ export const PRODUCTS = [
     name: 'Trolley',
     category: 'racks-trolleys',
     catLabel: 'Tables & Trolleys',
-    image: '/images/trolley.png',
+    image: '/images/Trolley.png',
     page: 5,
     enquiryTag: 'Trolley',
+    note: 'Heavy-gauge SS 304 food transport and clearing trolley with heavy-duty castors.',
   },
 
   // ── PAGE 6: CUSTOMIZE EQUIPMENT (LIVE & CATERING COUNTERS) ────────────────
@@ -539,37 +543,41 @@ export const PRODUCTS = [
     id: 'dw-01',
     name: 'Single Sink Unit',
     category: 'dishwashing',
-    catLabel: 'Washing Equipment',
+    catLabel: 'Washing Equipment | SS 304 Food-Grade',
     image: '/images/single-sink-unit.png',
     page: 8,
     enquiryTag: 'Single Sink Unit',
+    note: 'Heavy-duty construction, ergonomic controls & high-output efficiency.',
   },
   {
     id: 'dw-02',
     name: 'Two Sink Unit',
     category: 'dishwashing',
-    catLabel: 'Washing Equipment',
+    catLabel: 'Washing Equipment | SS 304 Food-Grade',
     image: '/images/two-sink-unit.png',
     page: 8,
     enquiryTag: 'Two Sink Unit',
+    note: 'Heavy-duty construction, ergonomic controls & high-output efficiency.',
   },
   {
     id: 'dw-03',
-    name: 'Pot Wash Sink',
-    category: 'dishwashing',
-    catLabel: 'Washing Equipment',
-    image: '/images/pot-wash-sink.png',
-    page: 8,
-    enquiryTag: 'Pot Wash Sink',
-  },
-  {
-    id: 'dw-04',
     name: 'Three Sink Unit',
     category: 'dishwashing',
-    catLabel: 'Washing Equipment',
+    catLabel: 'Washing Equipment | SS 304 Food-Grade',
     image: '/images/three-sink-unit.png',
     page: 8,
     enquiryTag: 'Three Sink Unit',
+    note: 'Heavy-duty construction, ergonomic controls & high-output efficiency.',
+  },
+  {
+    id: 'dw-04',
+    name: 'Pot Wash Sink',
+    category: 'dishwashing',
+    catLabel: 'Washing Equipment | SS 304 Food-Grade',
+    image: '/images/pot-wash-sink.png',
+    page: 8,
+    enquiryTag: 'Pot Wash Sink',
+    note: 'Heavy-duty construction, ergonomic controls & high-output efficiency.',
   },
   {
     id: 'dw-05',
@@ -740,18 +748,18 @@ export const COMPANY = {
   brand:         'NIRVANA',
   tagline:       'Complete Commercial Kitchen Solutions',
   subTagline:    'Innovative Solutions for a Better Kitchen Tomorrow',
-  group:         'Samvardhana Motherson Group',
+  group:         'Proud to be part of Samvardhana Motherson',
   iso:           'ISO 9001:2015',
   certNo:        'VW26100063',
   clients:       '1000+',
   address:       'Plot No. D 59–60, Sector-6, Noida, Uttar Pradesh 201301',
-  phone1:        '+91 9654981312',
+  phone1:        '+91 7042933825',
   phone2:        '+91 7303090998',
   email:         'Info.nnpplindia@motherson.com',
   website:       'www.nirvanacommercialkitchen.com',
-  whatsapp:      '919654981312',
+  whatsapp:      '917042933825',
   officers: [
-    { name: 'Ajay Kumar Abbi',  title: 'Chief Operating Officer',   phone: '+91 9654981312' },
+    { name: 'Ajay Kumar Abbi',  title: 'Line Chief',   phone: '+91 7042933825' },
     { name: 'Abhay Asthana',    title: 'Manager – Sales & Marketing', phone: '+91 7303090998', email: 'Info.nnpplindia@motherson.com' },
   ],
   pillars: [

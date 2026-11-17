@@ -112,7 +112,7 @@ export default function AboutPage() {
           <div className="absolute inset-0 z-0">
             <Image
               src="/images/about-hero-technicians.jpg"
-              alt="Nirvana Commercial Kitchen Equipment Assembly & Fabrication"
+              alt="Nirvana Niche Products Private Limited Commercial Kitchen Assembly & Fabrication"
               fill
               priority
               sizes="100vw"
@@ -133,7 +133,7 @@ export default function AboutPage() {
             {/* Sub-label pill */}
             <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/10 backdrop-blur-md border border-white/20 text-white text-xs font-semibold uppercase tracking-wider mb-6">
               <span className="w-2 h-2 rounded-full bg-brand-red animate-pulse" />
-              <span>Nirvana Commercial Pvt. Ltd.</span>
+              <span>Nirvana Niche Products Private Limited</span>
             </div>
 
             <h1 className="text-2xl sm:text-4xl lg:text-5xl xl:text-6xl font-extrabold text-white leading-tight">
@@ -146,7 +146,7 @@ export default function AboutPage() {
             <div className="w-16 sm:w-24 h-1 sm:h-1.5 bg-brand-red rounded-full my-4 sm:my-6" />
 
             <p className="text-sm sm:text-base md:text-lg lg:text-xl text-white/90 max-w-3xl font-light leading-relaxed mb-6 sm:mb-8">
-              Welcome to Nirvana Commercial Pvt. Ltd., your trusted partner for innovative and reliable
+              Welcome to Nirvana Niche Products Private Limited, your trusted partner for innovative and reliable
               commercial kitchen equipment solutions. We are committed to helping businesses build
               efficient, hygienic, and high-performance commercial kitchens tailored to their operational needs.
             </p>
@@ -192,7 +192,7 @@ export default function AboutPage() {
                 {/* Highlight Quote Box */}
                 <div className="mt-8 p-5 sm:p-6 rounded-2xl bg-brand-light border-l-4 border-brand-red shadow-sm">
                   <p className="text-sm sm:text-base font-semibold text-brand-dark italic">
-                    &ldquo;At Nirvana Commercial Pvt. Ltd., we believe that the right kitchen equipment is more than just a business investment — it is the foundation of a productive and successful food service operation.&rdquo;
+                    &ldquo;At Nirvana Niche Products Private Limited, we believe that the right kitchen equipment is more than just a business investment — it is the foundation of a productive and successful food service operation.&rdquo;
                   </p>
                 </div>
               </div>
@@ -281,7 +281,7 @@ export default function AboutPage() {
               </h2>
               <span className="red-bar" />
               <p className="section-desc">
-                At Nirvana Commercial Pvt. Ltd., we follow a structured approach to help our clients find the right commercial kitchen solutions. Our process focuses on quality, efficiency, and customer satisfaction at every stage.
+                At Nirvana Niche Products Private Limited, we follow a structured approach to help our clients find the right commercial kitchen solutions. Our process focuses on quality, efficiency, and customer satisfaction at every stage.
               </p>
             </div>
 
@@ -463,14 +463,14 @@ export default function AboutPage() {
         </section>
 
         {/* ════════════════════════════════════════════════════════════════
-            WHY CHOOSE NIRVANA COMMERCIAL PVT. LTD.?
+            WHY CHOOSE NIRVANA NICHE PRODUCTS PRIVATE LIMITED?
         ════════════════════════════════════════════════════════════════ */}
         <section className="section bg-brand-light border-y border-brand-border">
           <div className="site-container">
             <div className="max-w-3xl mb-14">
               <span className="section-label">Our Advantages</span>
               <h2 className="section-title">
-                Why Choose <em>Nirvana Commercial Pvt. Ltd.?</em>
+                Why Choose <em>Nirvana Niche Products Private Limited?</em>
               </h2>
               <span className="red-bar" />
               <p className="section-desc">
@@ -515,7 +515,7 @@ export default function AboutPage() {
               Let&apos;s Build a Better Commercial Kitchen
             </h2>
             <p className="text-white/90 text-base sm:text-lg mt-4 max-w-2xl mx-auto leading-relaxed font-light">
-              Whether you are setting up a new kitchen, expanding an existing facility, or upgrading your equipment, Nirvana Commercial Pvt. Ltd. is ready to help you explore the right solutions for your business.
+              Whether you are setting up a new kitchen, expanding an existing facility, or upgrading your equipment, Nirvana Niche Products Private Limited is ready to help you explore the right solutions for your business.
             </p>
             <p className="text-white text-base font-medium mt-2">
               Let&apos;s work together to create a commercial kitchen that supports efficiency, reliability, and growth.
@@ -529,10 +529,10 @@ export default function AboutPage() {
                 Request a Custom Quote
               </Link>
               <a
-                href="tel:+919654981312"
+                href="tel:+917042933825"
                 className="px-7 py-3.5 rounded-btn bg-brand-red-deep/40 hover:bg-brand-red-deep border border-white/30 text-white font-semibold text-base transition-colors"
               >
-                Call: +91 9654981312
+                Call: +91 7042933825
               </a>
             </div>
           </div>
@@ -550,19 +550,19 @@ export default function AboutPage() {
               </h2>
               <span className="red-bar" />
               <p className="section-desc">
-                Connect directly with our Chief Operating Officer and Sales & Marketing heads for project inquiries and factory visits.
+                Connect directly with our Line Chief and Sales &amp; Marketing heads for project inquiries and factory visits.
               </p>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
 
-              {/* Leadership Card 1 — COO */}
+              {/* Leadership Card 1 — Line Chief */}
               <div className="p-7 rounded-3xl border border-brand-border bg-white shadow-card hover:shadow-card-hover hover:border-brand-red transition-all duration-300">
                 <div className="w-12 h-12 rounded-2xl bg-brand-red/10 text-brand-red flex items-center justify-center text-xl font-bold mb-4">
                   👔
                 </div>
                 <span className="text-xs font-bold uppercase tracking-wider text-brand-red block mb-1">
-                  Chief Operating Officer
+                  Line Chief
                 </span>
                 <h3 className="text-xl font-extrabold text-brand-dark mb-3">Ajay Kumar Abbi</h3>
                 <p className="text-xs text-brand-charcoal mb-4">
@@ -570,11 +570,11 @@ export default function AboutPage() {
                 </p>
                 <div className="pt-4 border-t border-brand-border">
                   <a
-                    href="tel:+919654981312"
+                    href="tel:+917042933825"
                     className="inline-flex items-center gap-2 text-sm font-bold text-brand-dark hover:text-brand-red transition-colors"
                   >
                     <span>📞</span>
-                    <span>+91 9654981312</span>
+                    <span>+91 7042933825</span>
                   </a>
                 </div>
               </div>
@@ -610,7 +610,7 @@ export default function AboutPage() {
                 <span className="text-xs font-bold uppercase tracking-wider text-brand-red block mb-1">
                   Head Office & Works
                 </span>
-                <h3 className="text-xl font-extrabold text-brand-dark mb-2">Nirvana Niche Product Pvt. Ltd.</h3>
+                <h3 className="text-xl font-extrabold text-brand-dark mb-2">Nirvana Niche Products Private Limited</h3>
                 <p className="text-xs text-brand-charcoal leading-relaxed mb-4">
                   Plot No. D-59, Sector 6, Noida, Uttar Pradesh – 201301
                 </p>
@@ -631,7 +631,7 @@ export default function AboutPage() {
 
             {/* Bottom Brand Motto */}
             <div className="mt-12 text-center text-sm font-semibold text-brand-charcoal/80">
-              Nirvana Commercial Pvt. Ltd. &mdash; Your Partner in Commercial Kitchen Solutions.
+              Nirvana Niche Products Private Limited &mdash; Your Partner in Commercial Kitchen Solutions.
             </div>
           </div>
         </section>

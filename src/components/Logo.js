@@ -72,7 +72,7 @@ export default function Logo({
       <Link
         href={href}
         className="inline-flex items-center group focus:outline-none focus-visible:ring-2 focus-visible:ring-red-500 rounded"
-        aria-label="Nirvana Commercial Kitchens — Home"
+        aria-label="Nirvana Niche Products Private Limited — Home"
       >
         {content}
       </Link>
