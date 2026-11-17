@@ -561,9 +561,6 @@ export default function AboutPage() {
                 <div className="w-12 h-12 rounded-2xl bg-brand-red/10 text-brand-red flex items-center justify-center text-xl font-bold mb-4">
                   👔
                 </div>
-                <span className="text-xs font-bold uppercase tracking-wider text-brand-red block mb-1">
-                  Line Chief
-                </span>
                 <h3 className="text-xl font-extrabold text-brand-dark mb-3">Ajay Kumar Abbi</h3>
                 <p className="text-xs text-brand-charcoal mb-4">
                   Overall operations, manufacturing oversight, and turnkey project execution.
