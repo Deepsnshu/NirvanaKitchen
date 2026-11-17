@@ -46,6 +46,15 @@ export const PRODUCTS = [
     enquiryTag: 'Three Burner Range',
   },
   {
+    id: 'cr-04',
+    name: 'Four Burner Range',
+    category: 'cooking-range',
+    catLabel: 'Cooking Range',
+    image: '/images/FourBur.png',
+    page: 3,
+    enquiryTag: 'Four Burner Range',
+  },
+  {
     id: 'cr-03',
     name: 'Stock Pot Burner',
     category: 'cooking-range',
@@ -55,15 +64,6 @@ export const PRODUCTS = [
     col: 3,
     enquiryTag: 'Stock Pot Burner',
     note: 'Listed as "Single Burner" in catalogue — heavy-duty stock pot variant',
-  },
-  {
-    id: 'cr-04',
-    name: 'Four Burner Range',
-    category: 'cooking-range',
-    catLabel: 'Cooking Range',
-    image: '/images/FourBur.png',
-    page: 3,
-    enquiryTag: 'Four Burner Range',
   },
   {
     id: 'cr-05',
