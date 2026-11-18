@@ -1032,30 +1032,7 @@ export default function CustomFabricationPage() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
 
-              {/* Leadership Card 1 — Line Chief */}
-              <div className="p-7 rounded-3xl border border-brand-border bg-white shadow-card hover:shadow-card-hover hover:border-brand-red transition-all duration-300">
-                <div className="w-12 h-12 rounded-2xl bg-brand-red/10 text-brand-red flex items-center justify-center text-xl font-bold mb-4">
-                  👔
-                </div>
-                <span className="text-xs font-bold uppercase tracking-wider text-brand-red block mb-1">
-                  Line Chief
-                </span>
-                <h3 className="text-xl font-extrabold text-brand-dark mb-1">Ajay Kumar Abbi</h3>
-                <p className="text-xs font-semibold text-brand-charcoal/70 mb-4">
-                  Overall operations, manufacturing oversight, and turnkey project execution.
-                </p>
-                <div className="pt-4 border-t border-brand-border">
-                  <a
-                    href="tel:+917042933825"
-                    className="inline-flex items-center gap-2 text-sm font-bold text-brand-dark hover:text-brand-red transition-colors"
-                  >
-                    <span>📞</span>
-                    <span>+91 7042933825</span>
-                  </a>
-                </div>
-              </div>
-
-              {/* Leadership Card 2 — Sales & Marketing */}
+              {/* Leadership Card 1 — Sales & Marketing */}
               <div className="p-7 rounded-3xl border border-brand-border bg-white shadow-card hover:shadow-card-hover hover:border-brand-red transition-all duration-300">
                 <div className="w-12 h-12 rounded-2xl bg-brand-red/10 text-brand-red flex items-center justify-center text-xl font-bold mb-4">
                   📊
@@ -1074,6 +1051,29 @@ export default function CustomFabricationPage() {
                   >
                     <span>📞</span>
                     <span>+91 7303090998</span>
+                  </a>
+                </div>
+              </div>
+
+              {/* Leadership Card 2 — Line Chief */}
+              <div className="p-7 rounded-3xl border border-brand-border bg-white shadow-card hover:shadow-card-hover hover:border-brand-red transition-all duration-300">
+                <div className="w-12 h-12 rounded-2xl bg-brand-red/10 text-brand-red flex items-center justify-center text-xl font-bold mb-4">
+                  👔
+                </div>
+                <span className="text-xs font-bold uppercase tracking-wider text-brand-red block mb-1">
+                  Line Chief
+                </span>
+                <h3 className="text-xl font-extrabold text-brand-dark mb-1">Ajay Kumar Abbi</h3>
+                <p className="text-xs font-semibold text-brand-charcoal/70 mb-4">
+                  Overall operations, manufacturing oversight, and turnkey project execution.
+                </p>
+                <div className="pt-4 border-t border-brand-border">
+                  <a
+                    href="tel:+917042933825"
+                    className="inline-flex items-center gap-2 text-sm font-bold text-brand-dark hover:text-brand-red transition-colors"
+                  >
+                    <span>📞</span>
+                    <span>+91 7042933825</span>
                   </a>
                 </div>
               </div>
