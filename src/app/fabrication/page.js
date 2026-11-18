@@ -1033,18 +1033,20 @@ export default function CustomFabricationPage() {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
 
               {/* Leadership Card 1 — Sales & Marketing */}
-              <div className="p-7 rounded-3xl border border-brand-border bg-white shadow-card hover:shadow-card-hover hover:border-brand-red transition-all duration-300">
-                <div className="w-12 h-12 rounded-2xl bg-brand-red/10 text-brand-red flex items-center justify-center text-xl font-bold mb-4">
-                  📊
+              <div className="p-7 rounded-3xl border border-brand-border bg-white shadow-card hover:shadow-card-hover hover:border-brand-red transition-all duration-300 flex flex-col justify-between">
+                <div>
+                  <div className="w-12 h-12 rounded-2xl bg-brand-red/10 text-brand-red flex items-center justify-center text-xl font-bold mb-4">
+                    📊
+                  </div>
+                  <span className="text-xs font-bold uppercase tracking-wider text-brand-red block mb-1">
+                    Sales &amp; Marketing
+                  </span>
+                  <h3 className="text-xl font-extrabold text-brand-dark mb-1">Abhay Asthana</h3>
+                  <p className="text-xs font-semibold text-brand-charcoal/70 mb-4">
+                    Manager &ndash; Sales &amp; Marketing
+                  </p>
                 </div>
-                <span className="text-xs font-bold uppercase tracking-wider text-brand-red block mb-1">
-                  Sales &amp; Marketing
-                </span>
-                <h3 className="text-xl font-extrabold text-brand-dark mb-1">Abhay Asthana</h3>
-                <p className="text-xs font-semibold text-brand-charcoal/70 mb-4">
-                  Manager &ndash; Sales &amp; Marketing
-                </p>
-                <div className="pt-4 border-t border-brand-border">
+                <div className="pt-4 border-t border-brand-border mt-auto">
                   <a
                     href="tel:+917042933825"
                     className="inline-flex items-center gap-2 text-sm font-bold text-brand-dark hover:text-brand-red transition-colors"
@@ -1056,18 +1058,20 @@ export default function CustomFabricationPage() {
               </div>
 
               {/* Leadership Card 2 — Line Chief */}
-              <div className="p-7 rounded-3xl border border-brand-border bg-white shadow-card hover:shadow-card-hover hover:border-brand-red transition-all duration-300">
-                <div className="w-12 h-12 rounded-2xl bg-brand-red/10 text-brand-red flex items-center justify-center text-xl font-bold mb-4">
-                  👔
+              <div className="p-7 rounded-3xl border border-brand-border bg-white shadow-card hover:shadow-card-hover hover:border-brand-red transition-all duration-300 flex flex-col justify-between">
+                <div>
+                  <div className="w-12 h-12 rounded-2xl bg-brand-red/10 text-brand-red flex items-center justify-center text-xl font-bold mb-4">
+                    👔
+                  </div>
+                  <span className="text-xs font-bold uppercase tracking-wider text-brand-red block mb-1">
+                    Line Chief
+                  </span>
+                  <h3 className="text-xl font-extrabold text-brand-dark mb-1">Ajay Kumar Abbi</h3>
+                  <p className="text-xs font-semibold text-brand-charcoal/70 mb-4">
+                    Overall operations, manufacturing oversight, and turnkey project execution.
+                  </p>
                 </div>
-                <span className="text-xs font-bold uppercase tracking-wider text-brand-red block mb-1">
-                  Line Chief
-                </span>
-                <h3 className="text-xl font-extrabold text-brand-dark mb-1">Ajay Kumar Abbi</h3>
-                <p className="text-xs font-semibold text-brand-charcoal/70 mb-4">
-                  Overall operations, manufacturing oversight, and turnkey project execution.
-                </p>
-                <div className="pt-4 border-t border-brand-border">
+                <div className="pt-4 border-t border-brand-border mt-auto">
                   <a
                     href="tel:+917303090998"
                     className="inline-flex items-center gap-2 text-sm font-bold text-brand-dark hover:text-brand-red transition-colors"
@@ -1079,18 +1083,20 @@ export default function CustomFabricationPage() {
               </div>
 
               {/* Office & Email Card */}
-              <div className="p-7 rounded-3xl border border-brand-border bg-brand-light shadow-card hover:shadow-card-hover hover:border-brand-red transition-all duration-300">
-                <div className="w-12 h-12 rounded-2xl bg-brand-red/10 text-brand-red flex items-center justify-center text-xl font-bold mb-4">
-                  📍
+              <div className="p-7 rounded-3xl border border-brand-border bg-brand-light shadow-card hover:shadow-card-hover hover:border-brand-red transition-all duration-300 flex flex-col justify-between">
+                <div>
+                  <div className="w-12 h-12 rounded-2xl bg-brand-red/10 text-brand-red flex items-center justify-center text-xl font-bold mb-4">
+                    📍
+                  </div>
+                  <span className="text-xs font-bold uppercase tracking-wider text-brand-red block mb-1">
+                    Head Office &amp; Works
+                  </span>
+                  <h3 className="text-xl font-extrabold text-brand-dark mb-2">Nirvana Niche Products Private Limited</h3>
+                  <p className="text-xs text-brand-charcoal leading-relaxed mb-4">
+                    Plot No. D-59, Sector 6, Noida, Uttar Pradesh &ndash; 201301
+                  </p>
                 </div>
-                <span className="text-xs font-bold uppercase tracking-wider text-brand-red block mb-1">
-                  Head Office &amp; Works
-                </span>
-                <h3 className="text-xl font-extrabold text-brand-dark mb-2">Nirvana Niche Products Private Limited</h3>
-                <p className="text-xs text-brand-charcoal leading-relaxed mb-4">
-                  Plot No. D-59, Sector 6, Noida, Uttar Pradesh &ndash; 201301
-                </p>
-                <div className="pt-4 border-t border-brand-border space-y-2">
+                <div className="pt-4 border-t border-brand-border space-y-2 mt-auto">
                   <div>
                     <span className="text-[10px] font-bold uppercase tracking-wider text-brand-charcoal/60 block">Official Email</span>
                     <a
