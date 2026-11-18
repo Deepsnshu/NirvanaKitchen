@@ -305,7 +305,7 @@ export default function CustomFabricationPage() {
         {/* ════════════════════════════════════════════════════════════════
             HERO BANNER (With User's Exact Title & Subtitle)
         ════════════════════════════════════════════════════════════════ */}
-        <section className="relative bg-brand-dark text-white py-20 md:py-28 lg:py-32 overflow-hidden">
+        <section className="relative bg-brand-dark text-white py-10 sm:py-12 md:py-14 lg:py-16 overflow-hidden">
           {/* Background image of commercial kitchen with custom exhaust hoods - Full HD lossless */}
           <div className="absolute inset-0 z-0">
             <Image
@@ -324,14 +324,14 @@ export default function CustomFabricationPage() {
 
           <div className="site-container relative z-10">
             {/* Breadcrumb */}
-            <div className="flex items-center gap-2 text-xs text-white/60 mb-6 font-medium">
+            <div className="flex items-center gap-2 text-xs text-white/60 mb-3 sm:mb-4 font-medium">
               <Link href="/" className="hover:text-white transition-colors">Home</Link>
               <span>/</span>
               <span className="text-brand-red font-semibold">Custom Fabrication Services</span>
             </div>
 
             {/* Pill */}
-            <div className="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full bg-white/10 backdrop-blur-md border border-white/20 text-white text-xs font-semibold uppercase tracking-wider mb-6">
+            <div className="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full bg-white/10 backdrop-blur-md border border-white/20 text-white text-xs font-semibold uppercase tracking-wider mb-4 sm:mb-5">
               <span className="w-2 h-2 rounded-full bg-brand-red animate-pulse" />
               <span>Custom Fabrication Services</span>
             </div>

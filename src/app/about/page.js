@@ -107,7 +107,7 @@ export default function AboutPage() {
         {/* ════════════════════════════════════════════════════════════════
             HERO BANNER
         ════════════════════════════════════════════════════════════════ */}
-        <section className="relative bg-brand-dark text-white py-20 md:py-28 lg:py-32 overflow-hidden">
+        <section className="relative bg-brand-dark text-white py-10 sm:py-12 md:py-14 lg:py-16 overflow-hidden">
           {/* Background image with multi-layer cinematic overlay */}
           <div className="absolute inset-0 z-0">
             <Image
@@ -124,14 +124,14 @@ export default function AboutPage() {
 
           <div className="site-container relative z-10">
             {/* Breadcrumb */}
-            <div className="flex items-center gap-2 text-xs text-white/60 mb-6 font-medium">
+            <div className="flex items-center gap-2 text-xs text-white/60 mb-3 sm:mb-4 font-medium">
               <Link href="/" className="hover:text-white transition-colors">Home</Link>
               <span>/</span>
               <span className="text-brand-red font-semibold">About Us</span>
             </div>
 
             {/* Sub-label pill */}
-            <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/10 backdrop-blur-md border border-white/20 text-white text-xs font-semibold uppercase tracking-wider mb-6">
+            <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/10 backdrop-blur-md border border-white/20 text-white text-xs font-semibold uppercase tracking-wider mb-4 sm:mb-5">
               <span className="w-2 h-2 rounded-full bg-brand-red animate-pulse" />
               <span>Nirvana Niche Products Private Limited</span>
             </div>
@@ -143,9 +143,9 @@ export default function AboutPage() {
               </span>
             </h1>
 
-            <div className="w-16 sm:w-24 h-1 sm:h-1.5 bg-brand-red rounded-full my-4 sm:my-6" />
+            <div className="w-16 sm:w-24 h-1 sm:h-1.5 bg-brand-red rounded-full my-3 sm:my-4" />
 
-            <p className="text-sm sm:text-base md:text-lg lg:text-xl text-white/90 max-w-3xl font-light leading-relaxed mb-6 sm:mb-8">
+            <p className="text-sm sm:text-base md:text-lg lg:text-xl text-white/90 max-w-3xl font-light leading-relaxed mb-5 sm:mb-6">
               Welcome to Nirvana Niche Products Private Limited, your trusted partner for innovative and reliable
               commercial kitchen equipment solutions. We are committed to helping businesses build
               efficient, hygienic, and high-performance commercial kitchens tailored to their operational needs.
