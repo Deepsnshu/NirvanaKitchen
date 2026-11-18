@@ -759,8 +759,8 @@ export const COMPANY = {
   website:       'www.nirvanacommercialkitchen.com',
   whatsapp:      '917042933825',
   officers: [
-    { name: 'Ajay Kumar Abbi',  title: 'Line Chief',   phone: '+91 7042933825' },
-    { name: 'Abhay Asthana',    title: 'Manager – Sales & Marketing', phone: '+91 7303090998', email: 'Info.nnpplindia@motherson.com' },
+    { name: 'Abhay Asthana',    title: 'Manager – Sales & Marketing', phone: '+91 7042933825', email: 'Info.nnpplindia@motherson.com' },
+    { name: 'Ajay Kumar Abbi',  title: 'Line Chief',   phone: '+91 7303090998' },
   ],
   pillars: [
     { label: 'Design',        icon: '📐' },

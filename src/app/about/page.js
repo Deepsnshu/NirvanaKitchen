@@ -570,11 +570,11 @@ export default function AboutPage() {
                 </p>
                 <div className="pt-4 border-t border-brand-border">
                   <a
-                    href="tel:+917303090998"
+                    href="tel:+917042933825"
                     className="inline-flex items-center gap-2 text-sm font-bold text-brand-dark hover:text-brand-red transition-colors"
                   >
                     <span>📞</span>
-                    <span>+91 7303090998</span>
+                    <span>+91 7042933825</span>
                   </a>
                 </div>
               </div>
@@ -590,11 +590,11 @@ export default function AboutPage() {
                 </p>
                 <div className="pt-4 border-t border-brand-border">
                   <a
-                    href="tel:+917042933825"
+                    href="tel:+917303090998"
                     className="inline-flex items-center gap-2 text-sm font-bold text-brand-dark hover:text-brand-red transition-colors"
                   >
                     <span>📞</span>
-                    <span>+91 7042933825</span>
+                    <span>+91 7303090998</span>
                   </a>
                 </div>
               </div>
