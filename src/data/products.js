@@ -59,7 +59,7 @@ export const PRODUCTS = [
     name: 'Stock Pot Burner',
     category: 'cooking-range',
     catLabel: 'Cooking Range',
-    image: '/images/Singlebun.png',
+    image: '/images/Stock pot Burner.png',
     page: 3,
     col: 3,
     enquiryTag: 'Stock Pot Burner',
